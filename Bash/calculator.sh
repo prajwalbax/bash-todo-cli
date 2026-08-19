@@ -29,3 +29,19 @@ result=$(( $1 * $2 ))
 echo "Multiplication: $result"
 
 }
+
+division() {
+
+if [ $2 -eq 0 ]; then
+
+echo "Error: Division by zero is not allowed."
+
+else
+
+result=$(( $1 / $2 ))
+
+echo "Division: $result"
+
+fi
+
+}
