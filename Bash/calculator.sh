@@ -22,3 +22,10 @@ result=$(( $1 - $2 ))
 echo "Subtraction: $result"
 
 }
+
+multiplication() {
+result=$(( $1 * $2 ))
+
+echo "Multiplication: $result"
+
+}
