@@ -12,3 +12,13 @@ result=$(( $1 + $2 ))
 
 echo "Addition: $result"
 }
+
+# Function for Subtraction
+
+subtraction() {
+
+result=$(( $1 - $2 ))
+
+echo "Subtraction: $result"
+
+}
