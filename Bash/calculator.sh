@@ -6,6 +6,9 @@ read num1
 echo "Enter second number:"
 read num2
 
-sum=$((num1 + num2))
+addition() {
 
-echo "The sum is: $sum"
+result=$(( $1 + $2 ))
+
+echo "Addition: $result"
+}
